@@ -1,0 +1,61 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Hellgrauer Hintergrund für ein gediegeneres Design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.question-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sanfte Schatten für eine edlere Optik */
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2rem; /* Größerer Titel */
+  font-weight: bold;
+  color: #4b4b4b; /* Etwas gediegeneres Grau für den Titel */
+  margin-bottom: 20px;
+}
+
+.answers {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff; /* Ein beruhigendes Blau für die Buttons */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Etwas dunklerer Blau-Ton für den Hover-Effekt */
+}
+
+.hidden {
+  display: none;
+}
+
+#result-container {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gleiche Gestaltung wie der Fragenbereich */
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
